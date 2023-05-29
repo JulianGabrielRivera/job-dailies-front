@@ -34,7 +34,7 @@ export const Slogan = () => {
             });
         }}
       >
-        <p class="mt-7 ml-4 w-2/5 rounded-md text-white">
+        <p class="mt-7 ml-4 rounded-md text-white">
           You are what you repeatedly do every day
         </p>
       </form>
