@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  width: 100vw;
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  height: 100vh;
+}
+
+.coolBg {
+  background-color: rgb(99 102 241 / 0.4);
+}
+.minWidth {
+  min-width: 365px;
+}
+.mainFontColor {
+  color: #6c7293;
+}
+.dailyCards {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  height: 300px;
+
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+
+  background: #191c24;
+}
+.dailyCardsTwo {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  height: 300px;
+
+  justify-content: space-evenly;
+  margin: 10px;
+
+  background: #191c24;
+}
+
+.mainColor {
+  background: #191c24;
+}
+.slogan {
+  background: linear-gradient(0.25turn, #af1763, 50%, #ab2e3c);
+  background: #191c24;
+}
+
+.progressBar {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: 17px;
+  border-radius: 5px;
+  background-color: white;
+}
+.progressPercent {
+  transform: translate(-50%, -50%);
+}
+.grid {
+  display: flex;
+}
+.hidden {
+  display: none;
+}
+#myName {
+}
+
+@media screen and (max-width: 700px) {
+  .dropDiv {
+    width: 10%;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .hamburgerMenu {
+    z-index: 1;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+  }
+
+  .hamburgerItem {
+    border-radius: 10px;
+    width: 25px;
+    background-color: white;
+    height: 5px;
+    margin-top: 3px;
+  }
+  .hamburgerItemX {
+    background-color: white;
+    width: 30px;
+    height: 5px;
+    border-radius: 10px;
+
+    rotate: 45deg;
+    transform: translate(1.5px, 18.5px);
+    transition: ease-out 0.5s;
+  }
+  .hamburgerItemSecond {
+    border-radius: 10px;
+
+    background-color: white;
+    width: 30px;
+    height: 5px;
+
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+  }
+  .hamburgerItemXLast {
+    border-radius: 10px;
+
+    background-color: white;
+    width: 30px;
+    height: 5px;
+
+    rotate: 135deg;
+    transform: translate(15px, 2px);
+    transition: ease-out 0.5s;
+  }
+  #myName {
+    display: none;
+  }
+  .dropdown-menu {
+    margin-top: 30px;
+    height: 100px;
+    position: absolute;
+    right: -20px;
+  }
+
+  .dropdown-item {
+    /* background-color: #201c2b;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 5rem;
+    height: 5%;
+    z-index: 1; */
+  }
+
+  /* a {
+    display: block;
+    z-index: 1;
+    width: 100px;
+    background: #091235;
+  } */
+}
+/* .mainBG {
+  background-color: #091235;
+} */
+
+/* .boxShadow {
+  box-shadow: 5px 5px 5px 20px rgb(47, 0, 255);
+} */
