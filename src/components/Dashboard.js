@@ -102,6 +102,7 @@ export const Dashboard = () => {
 
   return (
     <div className="flex flex-col my-7  " style={{ width: "99%" }}>
+      <Slogan />
       <DashBoardGrid />
       {isMobile ? (
         <div className="flex flex-col justify-center ">

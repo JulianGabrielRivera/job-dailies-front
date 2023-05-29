@@ -34,13 +34,9 @@ export const Slogan = () => {
             });
         }}
       >
-        <input
-          onChange={handleCompanyName}
-          name="companyName"
-          type="text"
-          placeholder="Search..."
-          class="mt-7 ml-4 w-2/5 rounded-md text-black"
-        ></input>
+        <p class="mt-7 ml-4 w-2/5 rounded-md text-white">
+          You are what you repeatedly do every day
+        </p>
       </form>
 
       {/* <h1 class="mx-4 ">You are what you repeatedly do everyday</h1> */}
