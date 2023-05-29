@@ -261,7 +261,7 @@ export const DailyGoals = () => {
                             <h3>Follow up:</h3>
                             <p>{allCompaniesFollowUps(job) + "/3"}</p>
                           </div>
-                          <div class="flex w-2/3 justify-between">
+                          <div class="flex flex-col w-2/3 justify-between">
                             <h3>Progress:</h3>
                             <p>
                               <Progressbar job={job} />
