@@ -68,13 +68,19 @@ export const Login = () => {
             <button class="rounded-none bg-blue-500 w-full mt-6 px-3 py-2">
               Login
             </button>
+            <div class="flex justify-center mt-2">
+              <Link to="/signup" class="text-white font-bold">
+                Create an account
+              </Link>
+            </div>
             {/* <input
             type="checkbox"
             class="appearance-none checked:bg-blue-500 ..."
           />
           <label>I agree to terms and conditions</label> */}
           </form>
-          <Link to="/password-request" class="text-white font-bold">
+
+          <Link to="/password-request" class="text-white mt-2 font-bold">
             Forgot password
           </Link>
         </section>

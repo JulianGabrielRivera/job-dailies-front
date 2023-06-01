@@ -27,7 +27,7 @@ export const DashBoardGrid2 = () => {
         <h3 className="flex items-center">
           Jobs followed up from this month to last:
         </h3>
-        <p class="self-end">{percentageFollowUp}%</p>
+        <p class="self-end">{percentageFollowUp ? percentageFollowUp :'0'}%</p>
       </div>
     </div>
   );
